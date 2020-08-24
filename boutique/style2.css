@@ -1,0 +1,58 @@
+body {
+    margin-top: 200px;
+}
+
+/* LOGIN ADMIN */
+
+.nouveau-user {
+	display: block;
+	text-align: center;
+	font-family: "Montserrat-Bold", -apple-system, "Roboto", sans-serif;
+	font-size: 1em;
+	margin: 0;
+	font-weight: lighter;
+}
+
+.nouvel-article, .nouvelle-categorie {
+	display: block;
+	text-align: center;
+	font-family: "Montserrat-Bold", -apple-system, "Roboto", sans-serif;
+	font-size: 2em;
+	margin: 0;
+	font-weight: bold;
+}
+
+.registercenter {
+	margin: 0 auto 0 auto;
+	width: 400px;
+	text-align: center;
+}
+
+.titre-produit {
+	width: 100%;
+}
+
+hr {
+	height: 2px;
+	width: 25%;
+	border: 0;
+}
+
+form, input {
+	text-align: center;
+	width: 400px;
+	margin: 0 auto 0 auto;
+}
+
+.deco {
+    position: relative;
+    bottom: 120px;
+    display: inline;
+}
+
+/* INFO */
+
+.paragraphe {
+    font-size: 120% !important;
+    line-height: 200%;
+}
