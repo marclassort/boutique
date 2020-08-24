@@ -86,8 +86,6 @@ require_once("header.php");?>
  	<br>
  </form>
 
-
-
  <form action="" method="POST">
  	<br>
  	<p class="nouvelle-categorie">Ajouter une catégorie</p>
@@ -156,13 +154,9 @@ require_once("header.php");?>
      </tbody>
  </table>
 
- <!-- id nom_produit prix description_art image_art stock--> 
-
-
  <!-- Footer -->
 
  <?php include("footer.php"); ?>
-
 
 </body>
 </html>

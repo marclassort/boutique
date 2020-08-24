@@ -1,6 +1,7 @@
 <?php require_once 'header.php'; 
 require_once 'auth.php';
 is_logged();
+user_connected();
 if (is_logged()): ?>
     <ul class="deco"><a href="logout.php">Se déconnecter</a></ul>
 <?php endif ?>
@@ -17,7 +18,7 @@ if (is_logged()): ?>
             if ($_SESSION['connected']) {
                 echo '<h1>Vous êtes bien connecté.</h1><br><br>';
                 require_once('auth.php');
-            } else {
+
                 // Affiche tous les articles présents dans la BDD
 
                 include('bdd.php');
@@ -43,9 +44,6 @@ if (is_logged()): ?>
         </p>
     </main>
 </div>
-
-
-
 
 <?php require_once 'footer.php'; ?>
 
